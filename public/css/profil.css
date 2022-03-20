@@ -1,0 +1,102 @@
+body {
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header {
+    background-color: #7E805D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+}
+
+#hdrTitle{
+    margin-left: 20em;
+    margin-right: 11.5em;
+}
+
+#article{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#discBtn {
+    border: 3px solid white;
+    color: #fff;
+    background-color: #7E805D;
+    margin-left: 5em;
+}
+
+#discBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid black;
+}
+
+.title {
+    font-size: medium;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #7E805D;
+    margin-top: 5em;
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+    border: none;
+    display: flex;
+}
+
+.card-img{
+    border-radius: 50%;
+}
+
+h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#showModal{
+    background-color: #7E805D !important;
+    color: #fff !important;
+    border: 3px solid #fff !important;
+    margin-left: 5em;
+}
+
+#showModal:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 3px solid black !important;
+}
+
+#addArticle {
+    background-color: #7E805D !important;
+    color: #fff !important;
+    border: 3px solid #fff !important;
+}
+
+#addArticle:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 3px solid black !important;
+}
+
+#cancelArticle:hover{
+    background-color: red !important;
+    color: black !important;
+    border-radius: 10%;
+    border: 3px solid black;
+}

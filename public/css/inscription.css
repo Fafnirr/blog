@@ -1,0 +1,52 @@
+body {
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header {
+    background-color: #7E805D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1em;
+}
+
+.logo {
+    width: 4%;
+}
+
+.title {
+    font-size: medium;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#InsForm {
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 5%;
+    width: 30em;
+    margin-top: 3em;
+    background-color: #7E805D;
+}
+
+.formBody{
+    width: 75%;
+    margin-left: 4em;
+}
+
+.btn {
+    border: 3px solid #fff;
+    color: #fff;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: white;
+}
